@@ -16,22 +16,15 @@ This repository provides a collection of opinionated examples that demonstrate h
 * Then, with the help of terraform you can create multiple virtual machines from one cli.
 * So by the help of the packer image you can create and deploy multiple virtual machines quickly.
 
-
-
-This project supports the following guest operating systems:
-
 ## Linux Distributions
 
+This project supports the following guest operating systems:
 
 | Operating System         | Version   |
 | :------------------------- | :---------- |
 | Ubuntu Server            | 22.04 LTS |
 | Red Hat Enterprise Linux | 8         |
 | Red Hat Enterprise Linux | 9         |
-
-## Support
-
-This project is **not supported** by VMware Support Services.
 
 ## License
 
