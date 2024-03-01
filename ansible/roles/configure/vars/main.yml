@@ -1,0 +1,5 @@
+---
+ntp_server1: tr.pool.ntp.org
+ntp_server2: pool.ntp.org
+ssh_port: "22"
+timezone: "Europe/Istanbul"

@@ -1,0 +1,16 @@
+---
+instance-id: {{vm_name}}_{{vm_ipv4_address}}
+local-hostname: {{vm_hostname}}
+network:
+  version: 2
+  ethernets:
+    ens192:
+      dhcp4: false
+      addresses:
+        - {{vm_ipv4_address}}/{{vm_ipv4_netmask}}
+      gateway4: {{vm_ipv4_gateway}}
+      nameservers:
+        addresses:
+          - {{vm_dns_server_list}}
+        search:
+          - {{vm_dns_suffix_list}}

@@ -1,0 +1,19 @@
+---
+task_name: "Update the operating system and install additional packages."
+additional_packages:
+  Debian:
+    - bash-completion
+    - ca-certificates
+    - curl
+    - git
+    - net-tools
+    - unzip
+    - wget
+  RedHat:
+    - ca-certificates
+    - curl
+    - git
+    - net-tools
+    - unzip
+    - vim
+    - wget
